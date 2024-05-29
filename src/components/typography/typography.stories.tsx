@@ -18,5 +18,5 @@ export default meta
 type Story = StoryObj<typeof Typography>
 
 export const Primary: Story = {
-  render: ({children = "Я текста!"}) => <Typography>{children}</Typography>,
+  render: ({children = "Я текст"}) => <Typography>{children}</Typography>,
 };
