@@ -1,0 +1,45 @@
+:root {
+  /* Neutrals */
+  --color-neutrals-1: #1c1931;
+  --color-neutrals-2: #342d5b;
+  --color-neutrals-3: #3e3a58;
+  --color-neutrals-4: #8e87af;
+  --color-neutrals-5: #b1b5c3;
+  --color-neutrals-6: #e6e8ec;
+  --color-neutrals-7: #eeeff0;
+  --color-neutrals-8: #fcfcfd;
+
+  /* Backgound */
+  --colog-bg-dark: #070b24;
+  --color-bg-white: var(--color-neutrals-8);
+
+  /* Primary */
+  --color-primary-1: #e039fd;
+  --color-primary-2: #9757d7;
+  --color-primary-3: #ef466f;
+  --color-primary-4: #26db64;
+  --gradient-primary-1: linear-gradient(
+    109.18deg,
+    #6345ed 12.99%,
+    #e039fd 62.91%
+  );
+
+  /* Secondary */
+  --color-secondary-1: #4bc9f0;
+  --color-secondary-2: #e4d7cf;
+  --color-secondary-3: #ffd166;
+  --color-secondary-4: #cdb4db;
+
+  /* Shadows */
+  --shadow-1: 0px 8px 16px -8px #0f0f0f33;
+  --shadow-2: 0px 24px 24px -16px #0f0f0f33;
+  --shadow-3: 0px 40px 32px -24px #0f0f0f1f;
+  --shadow-4: 0px 64px 64px -48px #1f2f461f;
+  --shadow-5: 0px 16px 64px -48px #1f2f4666;
+
+  /* Round Corners */
+  --round-corner-modal: 1.25rem;
+  --round-corner-cards: 1rem;
+  --round-corner-input: 0.75rem;
+  --round-corner-small: 0.25rem;
+}
