@@ -1,0 +1,72 @@
+.hero {
+  font-size: 6rem;
+  line-height: 6rem;
+}
+.headline_1 {
+  font-size: 4rem;
+  line-height: 4rem;
+}
+.headline_2 {
+  font-size: 3rem;
+  line-height: 3.5rem;
+}
+.headline_3 {
+  font-size: 2.5rem;
+  line-height: 3rem;
+}
+.headline_4 {
+  font-size: 2rem;
+  line-height: 2.5rem;
+}
+.body_large {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+.body_large_bold {
+  font-size: 2.5rem;
+  line-height: 3rem;
+  font-weight: bold;
+}
+.body {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+.body_bold {
+  font-size: 0.875rem;
+  line-height: 1.5rem;
+  font-weight: bold;
+}
+.caption {
+  font-size: 0.875rem;
+  line-height: 1.5rem;
+}
+.caption_bold {
+  font-size: 0.875rem;
+  line-height: 1.5rem;
+  font-weight: bold;
+}
+.caption_small {
+  font-size: 0.75rem;
+  line-height: 1.25rem;
+}
+.caption_small_bold {
+  font-size: 0.75rem;
+  line-height: 1.25rem;
+  font-weight: bold;
+}
+.hairline {
+  font-size: 1rem;
+  line-height: 1rem;
+}
+.hairline_small {
+  font-size: 0.75rem;
+  line-height: 0.75rem;
+}
+.button {
+  font-size: 1rem;
+  line-height: 1rem;
+}
+.button_small {
+  font-size: 0.875rem;
+  line-height: 1rem;
+}
