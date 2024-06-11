@@ -18,6 +18,10 @@
   --color-primary-2: #9757d7;
   --color-primary-3: #ef466f;
   --color-primary-4: #26db64;
+
+  /* Gradients */
+  --color-for-gradient-1: #6345ed;
+  --color-for-gradient-2: var(--color-primary-1);
   --gradient-primary-1: linear-gradient(
     109.18deg,
     #6345ed 12.99%,
@@ -38,8 +42,25 @@
   --shadow-5: 0px 16px 64px -48px #1f2f4666;
 
   /* Round Corners */
+  --round-corner-button: 5.625rem;
   --round-corner-modal: 1.25rem;
   --round-corner-cards: 1rem;
   --round-corner-input: 0.75rem;
   --round-corner-small: 0.25rem;
+
+  /* Transitions */
+  --transition-400: 400ms ease-in-out;
+}
+
+/* Properties */
+@property --gradient-part1 {
+  syntax: '<color>';
+  initial-value: #6345ed /* --color-for-gradient-1 => variables.css */;
+  inherits: false;
+}
+
+@property --gradient-part2 {
+  syntax: '<color>';
+  initial-value: #e039fd /* --color-for-gradient-2 => variables.css */;
+  inherits: false;
 }
