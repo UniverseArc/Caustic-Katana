@@ -3,18 +3,19 @@ import s from './button.module.css'
 import { IButton } from './button.types'
 
 export const Button = ({
+  children,
   variant,
   className,
   size = 'medium',
   disabled,
-  text,
+  ...rest
 }: IButton) => {
   return (
-    <button
-      className={clsx(s.button, s[variant], s[size], className)}
+    <button {...rest}
+      className={clsx(s.button, s[variant], s[size], className, children)}
       disabled={disabled}
     >
-      {text}
+      {children}
     </button>
   )
 }

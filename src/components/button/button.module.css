@@ -17,13 +17,13 @@
 /* Properties for neutral button */
 @property --gradient-part1 {
   syntax: '<color>';
-  initial-value: #6345ed;
+  initial-value: #6345ed /* --color-for-gradient-1 => variables.css */;
   inherits: false;
 }
 
 @property --gradient-part2 {
   syntax: '<color>';
-  initial-value: #e039fd;
+  initial-value: #e039fd /* --color-for-gradient-2 => variables.css */;
   inherits: false;
 }
 
