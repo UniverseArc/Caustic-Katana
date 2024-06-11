@@ -51,3 +51,16 @@
   /* Transitions */
   --transition-400: 400ms ease-in-out;
 }
+
+/* Properties */
+@property --gradient-part1 {
+  syntax: '<color>';
+  initial-value: #6345ed /* --color-for-gradient-1 => variables.css */;
+  inherits: false;
+}
+
+@property --gradient-part2 {
+  syntax: '<color>';
+  initial-value: #e039fd /* --color-for-gradient-2 => variables.css */;
+  inherits: false;
+}

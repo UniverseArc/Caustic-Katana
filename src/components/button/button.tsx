@@ -8,12 +8,15 @@ export const Button = ({
   className,
   size = 'medium',
   disabled,
+  type = 'button',
   ...rest
 }: IButton) => {
   return (
-    <button {...rest}
+    <button
+      type={type}
       className={clsx(s.button, s[variant], s[size], className, children)}
       disabled={disabled}
+      {...rest}
     >
       {children}
     </button>

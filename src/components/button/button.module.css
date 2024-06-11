@@ -14,19 +14,6 @@
   cursor: not-allowed;
 }
 
-/* Properties for neutral button */
-@property --gradient-part1 {
-  syntax: '<color>';
-  initial-value: #6345ed /* --color-for-gradient-1 => variables.css */;
-  inherits: false;
-}
-
-@property --gradient-part2 {
-  syntax: '<color>';
-  initial-value: #e039fd /* --color-for-gradient-2 => variables.css */;
-  inherits: false;
-}
-
 /* Themes / Variables */
 .neutral {
   background: linear-gradient(109.18deg, var(--gradient-part1) 12.99%, var(--gradient-part2) 62.91%);
