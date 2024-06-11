@@ -8,6 +8,11 @@ const meta: Meta<typeof Button> = {
     children: {
       control: { type: 'text' },
     },
+    type: {
+      description: 'Варианты кнопок',
+      control: { type: 'select' },
+      options: ['button', 'submit', 'reset'],
+    },
   },
   parameters: {
     layout: 'centered',
@@ -18,13 +23,13 @@ export default meta
 type Story = StoryObj<typeof Button>
 
 export const Primary: Story = {
-
   render: ({
     disabled = false,
     children = 'Button',
     variant = 'neutral',
     size = 'small',
     className = 'orange',
+    type = 'button',
     ...rest
   }) => (
     <Button
@@ -32,6 +37,7 @@ export const Primary: Story = {
       size={size}
       variant={variant}
       disabled={disabled}
+      type={type}
       {...rest}
     >
       {children}
