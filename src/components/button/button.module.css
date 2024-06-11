@@ -1,0 +1,66 @@
+@import '../../styles/variables.css';
+
+/* Common */
+.button {
+  --hover-color-neutral: var(--color-primary-1);
+  --hover-color-light: var(--color-neutrals-2);
+  border: 0rem;
+  border-radius: var(--round-corner-button);
+  color: var(--color-neutrals-8);
+}
+
+.button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* Properties for neutral button */
+@property --gradient-part1 {
+  syntax: '<color>';
+  initial-value: #6345ed;
+  inherits: false;
+}
+
+@property --gradient-part2 {
+  syntax: '<color>';
+  initial-value: #e039fd;
+  inherits: false;
+}
+
+/* Themes / Variables */
+.neutral {
+  background: linear-gradient(109.18deg, var(--gradient-part1) 12.99%, var(--gradient-part2) 62.91%);
+  transition: --gradient-part1 400ms, --gradient-part2 400ms;
+}
+
+.neutral:hover {
+  --gradient-part1: var(--color-primary-1);
+  --gradient-part2: var(--color-primary-1);
+}
+
+.neutral:disabled {
+  background: var(--hover-color-neutral);
+}
+
+.light {
+  background: var(--colog-bg-dark);
+  transition: background var(--transition-400);
+}
+
+.light:hover {
+  background: var(--color-neutrals-2);
+  transition: background var(--transition-400);
+}
+
+.light:disabled {
+  background: var(--hover-color-light);
+}
+
+/* Sizes of buttons */
+.small {
+  padding: 0.75rem 1rem;
+}
+
+.medium {
+  padding: 1rem 1.5rem;
+}
